@@ -11,6 +11,4 @@ public:
 	void Run();
 };
 
-// To be defined in Game
-Application* CreateApplication();
 
