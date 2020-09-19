@@ -26,6 +26,7 @@ project "GameEngine"
 
 	includedirs
 	{
+		"%{prj.name}/Src",
 		"%{prj.name}/ThirdParty"
 	}
 
