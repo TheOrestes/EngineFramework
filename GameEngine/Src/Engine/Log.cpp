@@ -1,3 +1,5 @@
+
+#include "EnginePCH.h"
 #include "Log.h"
 
 Log::Log()

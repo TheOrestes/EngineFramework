@@ -1,7 +1,7 @@
 #pragma once
 
+#include "EnginePCH.h"
 #include "Event.h"
-#include <sstream>
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 class ENGINE_API MouseMovedEvent : public Event
@@ -24,10 +24,10 @@ public:
 
 	virtual EventType	GetEventType() const override
 	{
-		return EventType::MOUSE_MOVED;
+		return EventType::MOUSE__MOVED;
 	}
 
-	static EventType	GetStaticType() { return EventType::MOUSE_MOVED; }
+	static EventType	GetStaticType() { return EventType::MOUSE__MOVED; }
 
 private:
 	float m_MouseX, m_MouseY;
