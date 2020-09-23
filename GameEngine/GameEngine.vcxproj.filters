@@ -15,23 +15,12 @@
     <ClInclude Include="Src\Engine\Core.h">
       <Filter>Engine</Filter>
     </ClInclude>
-    <ClInclude Include="Src\Engine\Events\ApplicationEvent.h">
-      <Filter>Engine\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="Src\Engine\Events\Event.h">
-      <Filter>Engine\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="Src\Engine\Events\KeyEvent.h">
-      <Filter>Engine\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="Src\Engine\Events\MouseEvent.h">
-      <Filter>Engine\Events</Filter>
-    </ClInclude>
     <ClInclude Include="Src\Engine\Log.h">
       <Filter>Engine</Filter>
     </ClInclude>
     <ClInclude Include="Src\EngineHeaders.h" />
     <ClInclude Include="Src\EnginePCH.h" />
+    <ClInclude Include="Src\Engine\Windows.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\Engine\Application.cpp">
