@@ -20,7 +20,8 @@
     </ClInclude>
     <ClInclude Include="Src\EngineHeaders.h" />
     <ClInclude Include="Src\EnginePCH.h" />
-    <ClInclude Include="Src\Engine\Windows.h" />
+    <ClInclude Include="Src\Engine\ApplicationWindow.h" />
+    <ClInclude Include="Src\Engine\Events\Events.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Src\Engine\Application.cpp">
@@ -30,5 +31,7 @@
       <Filter>Engine</Filter>
     </ClCompile>
     <ClCompile Include="Src\EnginePCH.cpp" />
+    <ClCompile Include="Src\Engine\ApplicationWindow.cpp" />
+    <ClCompile Include="Src\Engine\Events\Events.cpp" />
   </ItemGroup>
 </Project>

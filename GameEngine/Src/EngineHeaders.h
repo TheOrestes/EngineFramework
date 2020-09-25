@@ -2,7 +2,6 @@
 
 // For use by Game!
 #include "Engine/Application.h"
-#include "Engine/Log.h"
 
 //--- MACROS!
 // ENGINE LOG RELATED MACROS
@@ -10,7 +9,9 @@
 #define LOG_ENGINE_ERROR(...)		Log::getInstance().EngineLogger().get()->error(__VA_ARGS__)
 #define LOG_ENGINE_WARNING(...)		Log::getInstance().EngineLogger().get()->warning(__VA_ARGS__)
 #define LOG_ENGINE_INFO(...)		Log::getInstance().EngineLogger().get()->info(__VA_ARGS__)
-#define LOG_ENGINE_DEBUG(...)		Log::getInstance().EngineLogger().get()->debug(__VA_ARGS__)
+#define LOG_ENGINE_DEBUG(...)		Log::getInstance().EngineLogger().get()->debug(__VA_ARGS__);
+
+#define SAFE_DELETE(x)				if(x){ delete x; x = nullptr; }
 
 // GAME LOG RELATED MACROS
 #define LOG_GAME_CRITICAL(...)		Log::getInstance().GameLogger().get()->critical(__VA_ARGS__)

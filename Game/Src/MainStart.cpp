@@ -1,5 +1,6 @@
 
 #include "EngineHeaders.h"
+#include "Engine/Log.h"
 
 #ifdef PLATFORM_WINDOWS
 

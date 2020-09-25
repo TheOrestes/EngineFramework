@@ -150,15 +150,18 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Src\Engine\Events\Events.h" />
     <ClInclude Include="Src\Engine\Application.h" />
+    <ClInclude Include="Src\Engine\ApplicationWindow.h" />
     <ClInclude Include="Src\Engine\Core.h" />
     <ClInclude Include="Src\Engine\Log.h" />
     <ClInclude Include="Src\EngineHeaders.h" />
     <ClInclude Include="Src\EnginePCH.h" />
-    <ClInclude Include="Src\Engine\Windows.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Src\Engine\Events\Events.cpp" />
     <ClCompile Include="Src\Engine\Application.cpp" />
+    <ClCompile Include="Src\Engine\ApplicationWindow.cpp" />
     <ClCompile Include="Src\Engine\Log.cpp" />
     <ClCompile Include="Src\EnginePCH.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>

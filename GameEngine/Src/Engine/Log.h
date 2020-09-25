@@ -20,7 +20,9 @@ public:
 	inline std::shared_ptr<spdlog::logger> GameLogger() { return m_pGameLogger; }
 
 private:
-	Log();
+	Log();				
+	Log(const Log&);				// prevent copies
+	void operator=(const Log&);		// prevent assignments
 
 	std::shared_ptr<spdlog::logger> m_pEngineLogger;
 	std::shared_ptr<spdlog::logger> m_pGameLogger;
